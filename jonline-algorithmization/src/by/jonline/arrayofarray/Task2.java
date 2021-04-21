@@ -1,4 +1,4 @@
-package by.jonline.arraysOfArrays;
+package by.jonline.arrayofarray;
 
 public class Task2 {
 

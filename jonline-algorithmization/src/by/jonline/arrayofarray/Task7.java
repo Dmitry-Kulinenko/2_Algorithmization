@@ -1,4 +1,4 @@
-package by.jonline.arraysOfArrays;
+package by.jonline.arrayofarray;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;

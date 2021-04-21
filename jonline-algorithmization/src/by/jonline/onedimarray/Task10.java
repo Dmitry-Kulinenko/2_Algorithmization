@@ -1,4 +1,4 @@
-package by.jonline.onedimarrays;
+package by.jonline.onedimarray;
 
 public class Task10 {
 

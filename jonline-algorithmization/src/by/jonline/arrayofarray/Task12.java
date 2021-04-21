@@ -1,4 +1,4 @@
-package by.jonline.arraysOfArrays;
+package by.jonline.arrayofarray;
 
 import java.util.Random;
 import java.util.Scanner;

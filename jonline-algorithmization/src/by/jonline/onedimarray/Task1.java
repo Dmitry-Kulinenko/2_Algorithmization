@@ -1,14 +1,20 @@
-package by.jonline.onedimarrays;
+/*
+ * В массив A [N] занесены натуральные числа. Найти сумму тех элементов, которые кратны данному К 
+ * 
+ * */
+
+package by.jonline.onedimarray;
 
 import java.util.Scanner;
 
 public class Task1 {
 
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 		System.out.println("Введите K");
 		int k = input.nextInt();
-		input.close();
+
 		int sum = 0;
 		int[] a = { 1, 2, 3, 4, 5, 6 };
 		for (int i = 0; i < a.length; i++) {
