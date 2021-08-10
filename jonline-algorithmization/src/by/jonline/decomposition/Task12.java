@@ -19,10 +19,8 @@ public class Task12 {
 
 		System.out.println("Введите N");
 		int n = input.nextInt();
-		getSum(3453);
-		int[] array = makeArray(n, k);
 
-		for (int i : array) {
+		for (int i : getArray(n, k)) {
 			if (i > 0) {
 				System.out.print(i + " ");
 			}
@@ -30,7 +28,7 @@ public class Task12 {
 		}
 	}
 
-	static int[] makeArray(int n, int k) {
+	static int[] getArray(int n, int k) {
 		int[] array = new int[n / 4];
 		int i = 0;
 		while (n > 0) {

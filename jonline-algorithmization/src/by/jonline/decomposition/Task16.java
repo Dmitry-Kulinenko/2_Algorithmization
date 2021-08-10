@@ -17,7 +17,9 @@ public class Task16 {
 
 		int n = input.nextInt();
 		int[] array = new int[n];
-		int oddSum = getOddSum(array);
+		int oddSum = 0;
+
+		oddSum = getOddSum(array);
 
 		System.out.println("Сумма всех чисел с нечётными цифрами равна: " + oddSum);
 		System.out.println("Количество чётных цифр в найденной сумме: " + getEven(oddSum));

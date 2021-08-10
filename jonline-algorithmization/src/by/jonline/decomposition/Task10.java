@@ -1,3 +1,4 @@
+
 /*
  * Дано натуральное число N. Написать метод(методы) для формирования массива, элементами которого являются цифры числа N.
  * 
@@ -24,10 +25,11 @@ public class Task10 {
 
 	static int[] parse(int n) {
 		int[] array = new int[numberLength(n)];
+		int i = 0;
 
-		array[0] = n % 10;
-		for (int i = 1; i < array.length; i++) {
-			array[i] = (int) ((n % (int) Math.pow(10, i + 1) - array[i - 1]) / Math.pow(10, i));
+		while (n > 0) {
+			array[i++] = n % 10;
+			n = n / 10;
 		}
 		return array;
 	}
