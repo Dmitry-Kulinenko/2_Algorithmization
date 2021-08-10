@@ -5,7 +5,7 @@
  *  элемент вперед. Если ai > a(i + 1), то производится перестановка и сдвигаются
  *  на один элемент назад. Составить алгоритм этой сортировки.
  */
-package one_dimension_array_sorting;
+package by.jonline.one_dimension_array_sorting;
 
 import java.util.Random;
 

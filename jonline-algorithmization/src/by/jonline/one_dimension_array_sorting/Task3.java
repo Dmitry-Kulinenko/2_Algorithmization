@@ -6,7 +6,7 @@
  * 
  * */
 
-package one_dimension_array_sorting;
+package by.jonline.one_dimension_array_sorting;
 
 import java.util.Random;
 

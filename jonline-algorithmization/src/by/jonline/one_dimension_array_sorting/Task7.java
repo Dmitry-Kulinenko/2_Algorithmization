@@ -6,7 +6,7 @@
  * возрастающей.
  */
 
-package one_dimension_array_sorting;
+package by.jonline.one_dimension_array_sorting;
 
 public class Task7 {
 	public static void main(String[] args) {
